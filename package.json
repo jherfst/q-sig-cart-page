@@ -1,6 +1,6 @@
 {
   "name": "q-sig-cart-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "jherfst",
   "license": "MIT",
@@ -57,5 +57,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "q-sig-context": "^1.0.0",
+    "react-paypal-express-checkout": "^1.0.3"
+  }
 }
